@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,6 +27,26 @@
 </head>
 <body>
   <div class="container-scroller">
+    <form action="https://disrod2022--dev.sandbox.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+    <input type=hidden name="orgid" value="00DDR000000qDfB">
+    <input type=hidden name="retURL" value="http://">
+    <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+<label for="description">Description</label><textarea name="description"></textarea><br>
+
+<input type="submit" name="submit">
+
+</form>
+
+      
+      
     <div class="row p-0 m-0 proBanner" id="proBanner">
       <div class="col-md-12 p-0 m-0">
         <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
